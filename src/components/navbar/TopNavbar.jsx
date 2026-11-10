@@ -34,24 +34,24 @@ export default function TopNavbar() {
             <h1 className="font-bold text-base text-slate-900 leading-tight">
               Finance Calc
             </h1>
-            <p className="text-[11px] text-slate-500 -mt-0.5">IRR & CLI Dual Module</p>
+            <p className="text-[11px] text-slate-500 -mt-0.5">IRR & CLI</p>
           </div>
         </div>
 
-        {/* Simple Module Switcher */}
+        {/* Module Switcher: only IRR and CLI */}
         <div className="flex items-center bg-slate-100 p-1 rounded-lg border border-slate-200">
           <NavLink
             to="/irr"
             className={({ isActive }) => `
               flex items-center gap-1.5 px-4 py-1.5 rounded-md text-xs font-semibold transition-all
               ${isActive || isIrr
-                ? 'bg-white text-indigo-700 shadow-xs border border-slate-200/80'
+                ? 'bg-white text-indigo-700 shadow-xs border border-slate-200/80 font-bold'
                 : 'text-slate-600 hover:text-slate-900'
               }
             `}
           >
             <Calculator className="w-3.5 h-3.5 text-indigo-600" />
-            <span>IRR Module</span>
+            <span>IRR</span>
           </NavLink>
 
           <NavLink
@@ -59,13 +59,13 @@ export default function TopNavbar() {
             className={({ isActive }) => `
               flex items-center gap-1.5 px-4 py-1.5 rounded-md text-xs font-semibold transition-all
               ${isActive || isCli
-                ? 'bg-white text-emerald-700 shadow-xs border border-slate-200/80'
+                ? 'bg-white text-emerald-700 shadow-xs border border-slate-200/80 font-bold'
                 : 'text-slate-600 hover:text-slate-900'
               }
             `}
           >
             <Shield className="w-3.5 h-3.5 text-emerald-600" />
-            <span>CLI Module</span>
+            <span>CLI</span>
           </NavLink>
         </div>
 

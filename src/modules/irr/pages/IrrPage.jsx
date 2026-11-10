@@ -56,7 +56,7 @@ export default function IrrPage() {
       <div className="flex items-center justify-between pb-3 border-b border-slate-200">
         <div>
           <h1 className="text-xl sm:text-2xl font-bold text-slate-900">
-            IRR Deal Calculator
+            IRR
           </h1>
         </div>
         <button
