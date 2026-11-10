@@ -1,0 +1,35 @@
+{
+  "name": "irr-cli-financial-suite",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@reduxjs/toolkit": "^2.5.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.5",
+    "recharts": "^2.15.1",
+    "tailwind-merge": "^3.0.1",
+    "xlsx": "^0.18.5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.6",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.6",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
+  }
+}

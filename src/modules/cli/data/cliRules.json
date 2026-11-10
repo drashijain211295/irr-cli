@@ -1,0 +1,180 @@
+{
+    "ProductRules":  {
+                         "coverTypes":  [
+                                            {
+                                                "code":  "R",
+                                                "name":  "Reducing"
+                                            },
+                                            {
+                                                "code":  "L",
+                                                "name":  "Level"
+                                            }
+                                        ],
+                         "benefitOptions":  [
+                                                {
+                                                    "code":  "DB",
+                                                    "name":  "Death Benefit"
+                                                },
+                                                {
+                                                    "code":  "DBCI7",
+                                                    "name":  "Death Benefit + Critical Illness (7 conditions)"
+                                                },
+                                                {
+                                                    "code":  "DBCI10",
+                                                    "name":  "Death Benefit + Critical Illness (10 conditions)"
+                                                }
+                                            ],
+                         "disclaimer":  {
+                                            "masterPolicyHolder":  "Tata Capital Limited",
+                                            "insurerAddress":  "14th Floor, Tower A, Peninsula Business Park, Senapati Bapat Marg, Lower Parel, Mumbai 400013",
+                                            "insurer":  "Tata AIA Life Insurance Company Limited",
+                                            "planName":  "TATA AIA LIFE GROUP SAMPOORNA RAKSHA SUPREME PLAN",
+                                            "vendorCode":  "0AIACLI001",
+                                            "uin":  "110N173V02"
+                                        },
+                         "lifeTypes":  [
+                                           {
+                                               "code":  "SL",
+                                               "name":  "Single Life"
+                                           },
+                                           {
+                                               "code":  "JLA",
+                                               "name":  "Joint Accelerated Life"
+                                           },
+                                           {
+                                               "code":  "JLS",
+                                               "name":  "Joint Sharing Life"
+                                           }
+                                       ]
+                     },
+    "NML":  {
+                "RetailNewCV":  {
+                                    "bands":  [
+                                                  {
+                                                      "maxAge":  18,
+                                                      "status":  "Not Applicable",
+                                                      "minAge":  0,
+                                                      "limit":  0
+                                                  },
+                                                  {
+                                                      "maxAge":  50,
+                                                      "status":  "Non-Medical",
+                                                      "minAge":  18,
+                                                      "limit":  6000000
+                                                  },
+                                                  {
+                                                      "maxAge":  60,
+                                                      "status":  "Non-Medical",
+                                                      "minAge":  51,
+                                                      "limit":  5000000
+                                                  },
+                                                  {
+                                                      "maxAge":  99,
+                                                      "status":  "Medical Required",
+                                                      "minAge":  61,
+                                                      "limit":  0
+                                                  }
+                                              ]
+                                },
+                "RetailUsedCV":  {
+                                     "bands":  [
+                                                   {
+                                                       "maxAge":  18,
+                                                       "status":  "Not Applicable",
+                                                       "minAge":  0,
+                                                       "limit":  0
+                                                   },
+                                                   {
+                                                       "maxAge":  50,
+                                                       "status":  "Non-Medical",
+                                                       "minAge":  18,
+                                                       "limit":  6000000
+                                                   },
+                                                   {
+                                                       "maxAge":  60,
+                                                       "status":  "Non-Medical",
+                                                       "minAge":  51,
+                                                       "limit":  5000000
+                                                   },
+                                                   {
+                                                       "maxAge":  99,
+                                                       "status":  "Medical Required",
+                                                       "minAge":  61,
+                                                       "limit":  0
+                                                   }
+                                               ]
+                                 },
+                "StrategicCV":  {
+                                    "bands":  [
+                                                  {
+                                                      "maxAge":  18,
+                                                      "status":  "Not Applicable",
+                                                      "minAge":  0,
+                                                      "limit":  0
+                                                  },
+                                                  {
+                                                      "maxAge":  50,
+                                                      "status":  "Non-Medical",
+                                                      "minAge":  18,
+                                                      "limit":  25000000
+                                                  },
+                                                  {
+                                                      "maxAge":  60,
+                                                      "status":  "Non-Medical",
+                                                      "minAge":  51,
+                                                      "limit":  25000000
+                                                  },
+                                                  {
+                                                      "maxAge":  99,
+                                                      "status":  "Medical Required",
+                                                      "minAge":  61,
+                                                      "limit":  0
+                                                  }
+                                              ]
+                                }
+            },
+    "SchemeOptions":  [
+                          {
+                              "minSA":  100000,
+                              "maxSA":  50000000,
+                              "minTerm":  12,
+                              "maxAge":  60,
+                              "roiLevel":  0,
+                              "maxMaturityAge":  67,
+                              "maxTerm":  84,
+                              "name":  "Strategic Commercial Vehicle Loan",
+                              "roiReducing":  14,
+                              "code":  "STR",
+                              "minAge":  18,
+                              "minMaturityAge":  19
+                          },
+                          {
+                              "minSA":  100000,
+                              "maxSA":  50000000,
+                              "minTerm":  12,
+                              "maxAge":  65,
+                              "roiLevel":  0,
+                              "maxMaturityAge":  72,
+                              "maxTerm":  84,
+                              "name":  "New Retail Commercial Vehicle Loan",
+                              "roiReducing":  14,
+                              "code":  "NCV",
+                              "minAge":  18,
+                              "minMaturityAge":  19
+                          },
+                          {
+                              "minSA":  100000,
+                              "maxSA":  50000000,
+                              "minTerm":  12,
+                              "maxAge":  65,
+                              "roiLevel":  0,
+                              "maxMaturityAge":  72,
+                              "maxTerm":  84,
+                              "name":  "Used Retail Commercial Vehicle Loan",
+                              "roiReducing":  14,
+                              "code":  "UCV",
+                              "minAge":  18,
+                              "minMaturityAge":  19
+                          }
+                      ]
+}

@@ -1,0 +1,78 @@
+{
+    "dealNatures":  [
+                        "STRATEGIC CAPTIVE",
+                        "TRADE",
+                        "RETAIL"
+                    ],
+    "assetTypes":  [
+                       "LCV",
+                       "MHCV",
+                       "SCV",
+                       "UV",
+                       "BUS",
+                       "TRACTOR",
+                       "CE"
+                   ],
+    "fundingTypes":  [
+                         "NEW-LOAN",
+                         "USED-LOAN",
+                         "REFINANCE-LOAN",
+                         "TOP-UP"
+                     ],
+    "defaultRates":  {
+                         "discountRate":  13.5,
+                         "tdsRefundDelay":  20,
+                         "interestTaxRate":  17,
+                         "irrGuess":  10,
+                         "tdsRate":  10
+                     },
+    "hubs":  [
+                 "AKOLA",
+                 "BARODA",
+                 "BHOPAL",
+                 "AHMEDABAD",
+                 "INDORE",
+                 "PUNE",
+                 "MUMBAI",
+                 "DELHI",
+                 "JAIPUR",
+                 "NAGPUR"
+             ],
+    "emiPatterns":  [
+                        "STRUCTURED",
+                        "REGULAR",
+                        "BALLOON",
+                        "BULLET"
+                    ],
+    "programs":  [
+                     "None",
+                     "Customised",
+                     "TDec5.0",
+                     "TDec8.0",
+                     "TJan5.0",
+                     "TJan6.5",
+                     "TJan7.0",
+                     "TJan7.5",
+                     "TJan8.0",
+                     "TJan8.5",
+                     "TJan9.0",
+                     "TJan9.5",
+                     "TApr10.5",
+                     "TApr9.5",
+                     "TApr9.0",
+                     "TApr8.5",
+                     "TApr8.0",
+                     "TApr7.5",
+                     "TApr7.0",
+                     "TApr6.0"
+                 ],
+    "makes":  [
+                  "BAJAJ",
+                  "EICHER",
+                  "LEYLAND",
+                  "MAHINDRA",
+                  "SWARAJ MAZDA",
+                  "TATA",
+                  "VOLVO"
+              ]
+}
